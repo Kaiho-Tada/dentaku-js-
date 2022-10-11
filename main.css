@@ -1,0 +1,34 @@
+.heading, .display, .calc-wrapper{
+    text-align: center;
+}
+.heading {
+    box-sizing: border-box;
+    font-size: 23px;
+    
+}
+
+#result{
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    width: 79%;
+    font-size: 16px;
+    height: 30px;
+    margin-bottom: 9px;
+    background-color: #ededed;
+}
+
+.calc-wrapper input {
+    box-sizing: border-box;
+    font-size: 19px;
+    width: 20%;
+    height: 36px;
+    color: #333;
+    border-color: #fff;
+}
+.bottom-button input {
+    width: 41%;
+}
+.calc-wrapper input:hover {
+    background-color: #ddd;
+}
